@@ -34,7 +34,7 @@ Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWO
 
 ### WP Snapshots
 
-The 'wpsnapshots' username is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots).
+The 'wpsnapshots' username is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.
 
 ### Install Automatic Login from within WordPress
 

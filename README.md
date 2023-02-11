@@ -15,4 +15,4 @@ define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'mycoolpassword' );
 
 ### WP Snapshots
 
-The 'wpsnapshots' user name is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots).
+The 'wpsnapshots' user name is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.
