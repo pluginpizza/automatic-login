@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "name": "Barry Ceelen",
+            "email": "b@rryceelen.com",
+            "homepage": "https://github.com/functionsfile",
+            "role": "Developer"
+        }
+    ],
+    "description": "Log in automatically on your locally hosted WordPress install.",
+    "homepage": "https://github.com/functionsfile/automatic-login",
+    "keywords": [
+        "admin",
+        "plugin",
+        "wordpress"
+    ],
+    "license": "GPL-3.0-or-later",
+    "name": "functionsfile/automatic-login",
+    "type": "wordpress-muplugin"
+}
