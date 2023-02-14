@@ -13,6 +13,19 @@ define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'mycooluser' );
 define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'mycoolpassword' );
 ```
 
+## Installation
+
+Automatic Login is hosted on the [WordPress plugin directory](https://wordpress.org/plugins/automatic-login/) and can be installed via the WordPress dashboard.
+
+1. Visit the Plugins page within your WordPress dashboard and select ‘Add New’
+1. Search for 'Automatic Login' and install the plugin
+1. Activate Automatic Login from your Plugins page
+
+### Composer
+
+Uncomment can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=automatic-login).
+
+
 ### WP Snapshots
 
 The 'wpsnapshots' user name is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.
