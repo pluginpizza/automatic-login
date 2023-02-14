@@ -23,8 +23,7 @@ Automatic Login is hosted on the [WordPress plugin directory](https://wordpress.
 
 ### Composer
 
-Uncomment can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=automatic-login).
-
+Automatic Login can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=automatic-login).
 
 ### WP Snapshots
 
