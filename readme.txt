@@ -18,6 +18,10 @@ Developers rejoice! Automatic Login logs you in automatically on your local deve
 
 Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWORD` constants can be used to define the login credentials for Automatic Login. Note that Automatic Login does not create a user for you and the user should already exist.
 
+### WP Snapshots
+
+The 'wpsnapshots' user name is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.
+
 ### Bug Reports
 
 Do you want to report a bug or suggest a feature for Automatic Login? Best to do so in the Automatic Login [repository on GitHub](https://github.com/functionsfile/automatic-login/).
