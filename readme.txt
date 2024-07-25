@@ -1,5 +1,5 @@
 === Automatic Login ===
-Contributors: functionsfile, barryceelen
+Contributors: pluginpizza, barryceelen, functionsfile
 Tags: autologin, admin, login, local
 Requires at least: 5.5.1
 Tested up to: 6.4
