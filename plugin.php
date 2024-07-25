@@ -54,7 +54,7 @@ function maybe_login() {
 		return;
 	}
 
-	$user_logins = [ 'admin', 'wpsnapshots' ];
+	$user_logins = [ 'admin', 'snapshots', 'wpsnapshots' ];
 
 	if ( defined( 'AUTOMATIC_LOGIN_USER_LOGIN' ) && is_string( AUTOMATIC_LOGIN_USER_LOGIN ) ) {
 		array_unshift( $user_logins, AUTOMATIC_LOGIN_USER_LOGIN );
