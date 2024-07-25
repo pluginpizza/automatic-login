@@ -2,17 +2,17 @@
 /**
  * Plugin Name: Automatic Login
  * Description: Log in automatically on your locally hosted WordPress install.
- * Version: 1.0.0
- * Author: Functions File, Barry Ceelen
- * Author URI: https://github.com/functionsfile
- * Plugin URI: https://github.com/functionsfile/automatic-login
+ * Version: 1.1.0
+ * Author: Plugin Pizza, Barry Ceelen
+ * Author URI: https://plugin.pizza
+ * Plugin URI: https://wordpress.org/plugins/automatic-login/
  * License: GPLv3+
- * GitHub Plugin URI: functionsfile/automatic-login
+ * GitHub Plugin URI: pluginpizza/automatic-login
  *
- * @package AutomaticLogin
+ * @package PluginPizza\AutomaticLogin
  */
 
-namespace AutomaticLogin;
+namespace PluginPizza\AutomaticLogin;
 
 // Maybe login automatically.
 add_action( 'init', __NAMESPACE__ . '\maybe_login' );
