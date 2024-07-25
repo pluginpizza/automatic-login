@@ -1,5 +1,11 @@
 {
     "authors": [
+    	{
+            "name": "Plugin Pizza",
+            "email": "info@plugin.pizza",
+            "homepage": "https://plugin.pizza",
+            "role": "Developer"
+        }
         {
             "name": "Barry Ceelen",
             "email": "b@rryceelen.com",
@@ -8,13 +14,13 @@
         }
     ],
     "description": "Log in automatically on your locally hosted WordPress install.",
-    "homepage": "https://github.com/functionsfile/automatic-login",
+    "homepage": "https://github.com/pluginpizza/automatic-login",
     "keywords": [
         "admin",
         "plugin",
         "wordpress"
     ],
     "license": "GPL-3.0-or-later",
-    "name": "functionsfile/automatic-login",
-    "type": "wordpress-muplugin"
+    "name": "pluginpizza/automatic-login",
+    "type": "wordpress-plugin"
 }
