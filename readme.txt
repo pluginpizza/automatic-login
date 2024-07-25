@@ -24,7 +24,7 @@ The 'snapshots' and 'wpsnapshots' user names are automatically recognized for fo
 
 ### Bug Reports
 
-Do you want to report a bug or suggest a feature for Automatic Login? Best to do so in the Automatic Login [repository on GitHub](https://github.com/functionsfile/automatic-login/).
+Do you want to report a bug or suggest a feature for Automatic Login? Best to do so in the Automatic Login [repository on GitHub](https://github.com/pluginpizza/automatic-login/).
 
 == Installation ==
 
