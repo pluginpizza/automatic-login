@@ -7,6 +7,10 @@ Developers rejoice! Automatic Login logs you in automatically on your local deve
 
 Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWORD` constants can be used to define the login credentials for Automatic Login. Note that Automatic Login does not create a user for you and the user should already exist.
 
+### WP Snapshots
+
+The 'snapshots' and 'wpsnapshots' user names are recognized for folks using 10up's [Snapshots](https://github.com/10up/snapshots) project sharing tool.
+
 ```
 // Credentials for the Automatic Login plugin.
 define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'mycooluser' );
@@ -24,7 +28,3 @@ Automatic Login is hosted on the [WordPress plugin directory](https://wordpress.
 ### Composer
 
 Automatic Login can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=automatic-login).
-
-### WP Snapshots
-
-The 'wpsnapshots' user name is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.

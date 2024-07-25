@@ -20,7 +20,7 @@ Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWO
 
 ### WP Snapshots
 
-The 'wpsnapshots' user name is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.
+The 'snapshots' and 'wpsnapshots' user names are automatically recognized for folks using 10up's [Snapshots](https://github.com/10up/snapshots) project sharing tool.
 
 ### Bug Reports
 
@@ -38,7 +38,7 @@ Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWO
 
 ### WP Snapshots
 
-The 'wpsnapshots' username is automatically recognized for folks using 10up's [WP Snapshots](https://github.com/10up/wpsnapshots) project sharing tool.
+The 'snapshots' and 'wpsnapshots' user names are automatically recognized for folks using 10up's [Snapshots](https://github.com/10up/snapshots) project sharing tool.
 
 ### Install Automatic Login from within WordPress
 
@@ -55,8 +55,12 @@ Automatic Login contains a `GitHub Plugin URI` plugin header to support updates 
 
 == Changelog ==
 
+= 1.1.0 =
+Release Date: July 25, 2024
+
+- Add support for the 'snapshots' user name in addition to 'wpsnapshots'.
+
 = 1.0 =
 Release Date: February 11, 2023
 
 - Initial release.
-
