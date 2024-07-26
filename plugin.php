@@ -3,7 +3,7 @@
  * Plugin Name: Automatic Login
  * Description: Log in automatically on your locally hosted WordPress install.
  * Version: 1.1.0
- * Author: Plugin Pizza, Barry Ceelen
+ * Author: Plugin Pizza
  * Author URI: https://plugin.pizza
  * Plugin URI: https://wordpress.org/plugins/automatic-login/
  * License: GPLv3+
