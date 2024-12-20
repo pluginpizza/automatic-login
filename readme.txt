@@ -2,7 +2,7 @@
 Contributors: pluginpizza, barryceelen, functionsfile
 Tags: autologin, admin, login, local
 Requires at least: 5.5.1
-Tested up to: 6.4
+Tested up to: 6.7
 Stable tag: 2.0.0
 License: GPLv3+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
