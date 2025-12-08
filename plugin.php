@@ -54,7 +54,7 @@ function maybe_login() {
 		return;
 	}
 
-	$user_logins = [ 'admin', 'snapshots', 'wpsnapshots' ];
+	$user_logins = array( 'admin', 'snapshots', 'wpsnapshots' );
 
 	if ( defined( 'AUTOMATIC_LOGIN_USER_LOGIN' ) && is_string( AUTOMATIC_LOGIN_USER_LOGIN ) ) {
 		array_unshift( $user_logins, AUTOMATIC_LOGIN_USER_LOGIN );
@@ -77,7 +77,7 @@ function maybe_login() {
 		);
 
 		if ( ! is_wp_error( $user ) && isset( $_SERVER['REQUEST_URI'] ) ) {
-			wp_safe_redirect( $_SERVER['REQUEST_URI'] );
+			wp_safe_redirect( wp_unslash( $_SERVER['REQUEST_URI'] ) );
 			exit();
 		}
 	}
