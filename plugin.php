@@ -14,6 +14,8 @@
 
 namespace PluginPizza\AutomaticLogin;
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 // Maybe login automatically.
 add_action( 'init', __NAMESPACE__ . '\maybe_login' );
 
