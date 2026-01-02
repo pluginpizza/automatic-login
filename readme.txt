@@ -11,14 +11,26 @@ Log in automatically on your locally hosted WordPress install.
 
 == Description ==
 
-Developers rejoice! Automatic Login logs you in automatically on your local development installation if the following conditions are met:
+Developers rejoice! Skip the login screen during local development. Automatic Login logs you in automatically on your local development environment.
 
-- The `WP_ENVIRONMENT_TYPE` constant is defined as 'local'.
-- A user exists with the username 'admin' and password 'password'.
+## Quick Start
 
-Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWORD` constants can be used to define the login credentials for Automatic Login. Note that Automatic Login does not create a user for you and the user should already exist.
+1. Define the `WP_ENVIRONMENT_TYPE` constant as `local` in your `wp-config.php` file.
+2. Create a user with username `admin` and password `password`.
+3. That's it—you'll be logged in automatically!
 
-### WP Snapshots
+## Log in as another user
+
+By default, Automatic Login uses the 'admin' user. Add the following constants to your `wp-config.php` file to log in as another user:
+
+```php
+define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'your-username-here' );
+define( 'AUTOMATIC_LOGIN_USER_PASSWORD', 'your-password-here' );
+```
+
+**Note:** Automatic Login does not create users. The user must already exist.
+
+### 10up Snapshots
 
 The 'snapshots' and 'wpsnapshots' user names are automatically recognized for folks using 10up's [Snapshots](https://github.com/10up/snapshots) project sharing tool.
 
@@ -31,12 +43,21 @@ Do you want to report a bug or suggest a feature for Automatic Login? Best to do
 Starting with Automatic Login on your locally hosted WordPress site consists of the following steps:
 
 - Install and activate the plugin.
-- Define the `WP_ENVIRONMENT_TYPE` constant as 'local'.
+- Define the `[WP_ENVIRONMENT_TYPE](https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#wp-environment-type)` constant as 'local'.
 - Create a user with the user name 'admin' and password 'password'. Note that Automatic Login is intended for local development environments. Do not create these login credentials on publicly accessible sites!
 
-Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWORD` constants can be used to define the login credenitals for Automatic Login.  Note that Automatic Login does not create a user for you and the user should already exist.
+## Log in as another user
 
-### WP Snapshots
+By default, Automatic Login uses the 'admin' user. Add the following constants to your `wp-config.php` file to log in as another user:
+
+```php
+define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'your-username-here' );
+define( 'AUTOMATIC_LOGIN_USER_PASSWORD', 'your-password-here' );
+```
+
+**Note:** Automatic Login does not create users. The user must already exist.
+
+### 10up Snapshots
 
 The 'snapshots' and 'wpsnapshots' user names are automatically recognized for folks using 10up's [Snapshots](https://github.com/10up/snapshots) project sharing tool.
 
@@ -48,8 +69,14 @@ The 'snapshots' and 'wpsnapshots' user names are automatically recognized for fo
 
 ### Install Automatic Login manually
 
-1. Upload the ‘automatic-login’ folder to the /wp-content/plugins/ directory
+1. Add the ‘automatic-login’ folder to the /wp-content/plugins/ directory
 1. Activate the Automatic Login plugin through the ‘Plugins’ menu in WordPress
+
+### Install Automatic Login as a must-use plugin
+
+Automatic Login also works great as a [must-use plugin](https://wordpress.org/documentation/article/must-use-plugins/):
+
+1. Add the ‘automatic-login.php’ file to the /wp-content/mu-plugins/ directory
 
 Automatic Login contains a `GitHub Plugin URI` plugin header to support updates via the [Git Updater](https://git-updater.com/) plugin.
 

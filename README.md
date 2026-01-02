@@ -1,19 +1,24 @@
 # Automatic Login WordPress Plugin
 
-Developers rejoice! Automatic Login logs you in automatically on your local development installation if the following conditions are met:
+Developers rejoice! Skip the login screen during local development. Automatic Login logs you in automatically on your local development environment.
 
-- The `WP_ENVIRONMENT_TYPE` constant is defined as 'local'.
-- A user exists with the username 'admin' and password 'password'.
+## Quick Start
 
-Alternatively, the `AUTOMATIC_LOGIN_USER_LOGIN` and `AUTOMATIC_LOGIN_USER_PASSWORD` constants can be used to define the login credentials for Automatic Login. Note that Automatic Login does not create a user for you and the user should already exist.
+1. Define the `WP_ENVIRONMENT_TYPE` constant as `local` in your `wp-config.php` file.
+2. Create a user with username `admin` and password `password`.
 
+## Log in as another user
+
+By default, Automatic Login uses the 'admin' user. Add the following constants to your `wp-config.php` file to log in as another user:
+
+```php
+define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'your-username-here' );
+define( 'AUTOMATIC_LOGIN_USER_PASSWORD', 'your-password-here' );
 ```
-// Credentials for the Automatic Login plugin.
-define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'mycooluser' );
-define( 'AUTOMATIC_LOGIN_USER_LOGIN', 'mycoolpassword' );
-```
 
-### WP Snapshots
+**Note:** Automatic Login does not create users. The user must already exist.
+
+### 10up Snapshots
 
 The 'snapshots' and 'wpsnapshots' user names are recognized for folks using 10up's [Snapshots](https://github.com/10up/snapshots) project sharing tool.
 
@@ -24,6 +29,12 @@ Automatic Login is hosted on the [WordPress plugin directory](https://wordpress.
 1. Visit the Plugins page within your WordPress dashboard and select ‘Add New’
 1. Search for 'Automatic Login' and install the plugin
 1. Activate Automatic Login from your Plugins page
+
+### Install Automatic Login as a must-use plugin
+
+Automatic Login also works great as a [must-use plugin](https://wordpress.org/documentation/article/must-use-plugins/):
+
+1. Add the ‘automatic-login.php’ file to the /wp-content/mu-plugins/ directory
 
 ### Composer
 
