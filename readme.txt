@@ -3,7 +3,7 @@ Contributors: pluginpizza, barryceelen, functionsfile
 Tags: autologin, admin, login, local
 Requires at least: 5.5.1
 Tested up to: 6.9
-Stable tag: 2.0.0
+Stable tag: 3.0.0
 License: GPLv3+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,12 +55,22 @@ Automatic Login contains a `GitHub Plugin URI` plugin header to support updates 
 
 == Changelog ==
 
+= 3.0.0 =
+Release Date: January 2, 2026
+
+- Rename the plugin file from `plugin.php` to `automatic-login.php` to make it easier to use the plugin as a must-use plugin. Existing users will need to reactivate the plugin: renaming the plugin file will unfortunately automatically deactivate the plugin.
+
+= 2.0.0 =
+Release Date: July 26, 2024
+
+- Minor updates.
+
 = 1.1.0 =
 Release Date: July 25, 2024
 
 - Add support for the 'snapshots' user name in addition to 'wpsnapshots'.
 
-= 1.0 =
+= 1.0.0 =
 Release Date: February 11, 2023
 
 - Initial release.
