@@ -38,4 +38,6 @@ Automatic Login also works great as a [must-use plugin](https://wordpress.org/do
 
 ### Composer
 
-Automatic Login can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=automatic-login).
+Automatic Login can be added as a dependency to your project via the [wp packages composer repository](https://wp-packages.org/packages/wp-plugin/automatic-login).
+
+`composer require wp-plugin/automatic-login`
